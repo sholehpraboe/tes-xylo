@@ -1,0 +1,19 @@
+Step by step create application XYLO
+{ Contact List Management }
+
+composer create-project laravel/laravel tes-xylo
+
+php artisan migrate
+
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+
+npm install
+npm run dev
+php artisan migrate
+
+admin@gmail.com
+admin123
+
+agent@gmail.com
+agent123
